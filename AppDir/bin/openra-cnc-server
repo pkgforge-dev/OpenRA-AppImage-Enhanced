@@ -1,0 +1,3 @@
+#!/bin/sh
+cd "$APPDIR/lib/openra"
+dotnet OpenRA.Server.dll Game.Mod=cnc "$@"
